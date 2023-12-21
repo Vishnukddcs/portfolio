@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgba(191, 191, 255, 0.334);
+    /* background-image: url("https://www.shutterstock.com/image-illustration/blue-bright-colour-background-600nw-336497255.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+.contact{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.contact-us h2{
+    font-size: 30px;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.contact-us p{
+    margin: 5px;
+    padding: 10px;
+}
+.container{
+    height: 350px;
+    margin-top: auto;
+    padding: 60px 10px ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+.img{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.container-contact{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.container-massage{
+    border-radius: 8px;
+    padding: 20px 20px;
+    background-color: white;
+}
+.container-massage h3{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inputBox input, .inputBox textarea{
+    margin: 5px 0px 10px 0px;
+    width: 97%;
+    padding: 5px 3px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgba(191, 191, 255, 0.334);
+}
+.inputBox-button{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inputBox-button button{
+    width: 50%;
+    height: 35px;
+    border: none;
+    font-size: 18px;
+    border-radius: 8px;
+    background-color: rgba(191, 191, 255, 0.334);
+}
